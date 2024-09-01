@@ -11,7 +11,7 @@
 }
 
 .header {
-    background-color: #F5F7FA;
+    background-color: transparent;
     height: 65px;
     width: 100%;
     display: flex;
