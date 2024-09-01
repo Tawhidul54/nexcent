@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    /* font size  variable */
+    --headline-1-font-size:64px;
+    --headline-2-font-size:36px;
+    /* line height variable */
+    --headline-1-line-heigt:76px;
+    --headline-2-line-heigt:44px;
+    /* color variable */
+
+}
+
 *{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 }
 .container {
-    background-color: white;
+    background-color: #F5F7FA;
     height: 100vw;
-    width: 100vw;
+    overflow: hidden;
+    padding: 15px 20px;
 
 }
 
@@ -15,7 +28,7 @@
     height: 65px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -40,6 +53,10 @@ button {
 
 }
 
+.hero-design{
+    width: 657px;
+}
+
 .Login {
     background-color: #F5F7FA;
     color: #4CAF4F;
@@ -50,4 +67,24 @@ button {
     color: white;
     border: 1px solid;
 }
+
+.hero-section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heading{
+    font-family: Inter,sans-serif;
+    font-weight: 600;
+}
+
+.headline1{
+    font-size: var(--headline-1-font-size);
+    line-height: var(--headline-1-line-heigt);
+}
+
 
