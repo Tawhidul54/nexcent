@@ -1,7 +1,9 @@
-.container {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     font-family: sans-serif;
+}
+.container {
     background-color: white;
     height: 100vw;
     width: 100vw;
