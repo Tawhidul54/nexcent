@@ -27,6 +27,7 @@
     overflow: hidden;
     padding: 15px 20px;
 
+
 }
 
 .header {
@@ -51,7 +52,7 @@
 }
 
 button {
-    padding: 10px 10px;
+    padding: 10px 18px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -118,13 +119,17 @@ line-height: 50px;
 }
 .client {
     
-   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
     
 }
 
 .britto {
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    padding-top: 10px;
     
     span{
         width: 10px;
@@ -133,5 +138,60 @@ line-height: 50px;
         background-color: #4CAF4F;
     }
 }
+.our{
+    font-size: var(--headline-2-font-size);
 
+}
 
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.h4{
+    font-size: var(--headline-2-font-size);
+}
+
+.manage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav{
+    width: 300px;
+    height: 100px;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.h3{
+    font-size: 28px;
+}
+
+.club{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.nav-1{
+     width: 300px;
+    height: 100px;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.nav-2{
+     width: 300px;
+    height: 100px;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
